@@ -1,0 +1,101 @@
+* {
+    color: #fff;
+    background-color: #68d87b;
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+}
+.correct-container {
+    background-color: #68d87b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+}
+.form-style {
+    padding: 1.5rem;
+    border-radius: 12px;
+    background-color: #fff;
+    background: #d1d1d1;
+}
+.form-style h1 {
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    font-style: italic;
+    background: #d1d1d1;
+    text-decoration: underline;
+}
+.form-style form {
+    background: #d1d1d1;
+    display: flex;
+    flex-direction: column;
+}
+.form-style a {
+    margin-top: 12px;
+    background: #d1d1d1;
+}
+.form-style a:hover {
+    color: #09da2c;
+}
+.values {
+    padding: .1rem;
+    font-size: 2.5rem;
+    background: #d1d1d1;
+}
+.sum {
+    padding: 0px;
+    font-size: 2.5rem;
+    background: #d1d1d1;
+}
+
+.form-style form input {
+    border: 0;
+    border-radius: .6rem;
+    background-color: #fff;
+    padding: .5rem;
+    margin-top: 1rem;
+    color: #000;
+    outline: none;
+}
+.form-style form button {
+    border-radius: 1.2rem;
+    border: 0px;
+    background-color: #ffffff;
+    margin-top: 1rem;
+    padding: .5rem;
+    color: #68d87b;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 700;
+    font-style: italic;
+    transition: background-color 0.2s;
+    cursor: pointer;
+}
+.form-style form button:hover {
+    background-color: #68d87b;
+    color: #fff
+}
+.message i {
+    font-size: 35px;
+}
+.message a {
+    margin-top: 15px;
+    color: #68d87b;
+    text-decoration: none;
+    padding: .5rem;
+    border-radius: 12px;
+    background: #fff;
+    transition: 0.2s;
+}
+.message a:hover {
+    color: #fff;
+    background: #06b400;
+}

@@ -1,0 +1,23 @@
+.wrong-container {
+    background-color: #e65252;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+}
+.message {
+    background-color: #e65252;
+}
+.message h1,
+.message p,
+.message i {
+    background-color: #e65252;
+}
+.message a {
+    color: #e65252;
+    transition: 0.2s;
+}
+.message a:hover {
+    background: #ee1f1f;
+}
